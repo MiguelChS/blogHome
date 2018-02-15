@@ -4,14 +4,11 @@
   "description": "blog de la esculita de sexo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist & webpack"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  },
   "devDependencies": {
     "@types/react": "^16.0.36",
     "@types/react-dom": "^16.0.3",
@@ -22,5 +19,12 @@
     "typescript": "^2.7.1",
     "typings-for-css-modules-loader": "^1.7.0",
     "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "blg-header": "git+ssh://git@github.com/MiguelChS/blg-header.git#1.0.7",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   }
 }

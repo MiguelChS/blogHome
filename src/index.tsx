@@ -1,5 +1,21 @@
 import * as React from 'react';
 import {render} from 'react-dom';
-import Title from './Title/title';
+import {Header} from 'blg-header';
 
-render(<Title/>,document.getElementById("app"));
+class App extends React.Component {
+    touch = ()=>{
+        alert("hola Miguel")
+    }
+
+    render(){
+        return(
+            <div>
+                <Header/>
+            </div>
+        )
+    }
+}
+
+
+
+render(<App/>,document.getElementById("app"));
