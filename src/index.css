@@ -1,0 +1,12 @@
+.contentHome {
+    margin-top: 50px
+}
+
+body {
+    background: #f4f4f4;
+    color: #444;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+}

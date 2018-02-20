@@ -31,7 +31,6 @@ module.exports = {
             {
                 test: /\.css?$/,
                 use: [
-                    'css-loader',
                     'style-loader',
                     {
                         loader: 'typings-for-css-modules-loader',

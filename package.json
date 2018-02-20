@@ -10,18 +10,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^16.0.36",
-    "@types/react-dom": "^16.0.3",
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
     "awesome-typescript-loader": "^3.4.1",
     "css-loader": "^0.28.9",
     "source-map-loader": "^0.2.3",
-    "style-loader": "^0.20.1",
-    "typescript": "^2.7.1",
+    "style-loader": "^0.20.2",
+    "typescript": "^2.7.2",
     "typings-for-css-modules-loader": "^1.7.0",
-    "webpack": "^3.10.0"
+    "webpack": "^3.11.0"
   },
   "dependencies": {
-    "blg-header": "git+ssh://git@github.com/MiguelChS/blg-header.git#1.0.7",
+    "blg-header": "git+ssh://git@github.com/MiguelChS/blg-header.git#1.0.8",
+    "blg-listpost": "git+ssh://git@github.com/MiguelChS/blg-listPost.git#1.0.2",
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.7.0",
     "react": "^16.2.0",
