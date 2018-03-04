@@ -1,32 +1,14 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import { Header } from 'blg-header';
-import { ListPost } from 'blg-listpost';
-import './index.css';
-import { contentHome } from './index.css';
+import { App, IPropsPagePost } from './blog';
 
-class App extends React.Component {
-
-    render() {
-        return (
-            <div>
-                <header>
-                    <Header />
-                </header>
-                <div className={contentHome}>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-sm-8">
-                                <ListPost/>
-                            </div>
-                            <div className="col-sm-4">
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        )
+export { IPropsPagePost }
+declare global {
+    interface Window {
+        dataBlogPage: {
+            page: string
+            data: IPropsPagePost
+        }
     }
 }
 

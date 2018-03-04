@@ -24,8 +24,9 @@
     "font-awesome": "^4.7.0"
   },
   "dependencies": {
-    "blg-header": "git+ssh://git@github.com/MiguelChS/blg-header.git#1.0.8",
-    "blg-listpost": "git+ssh://git@github.com/MiguelChS/blg-listPost.git#1.0.2",
+    "blg-header": "git+ssh://git@github.com/MiguelChS/blg-header.git",
+    "blg-listpost": "^1.0.3",
+    "blg-post": "^1.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
