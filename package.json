@@ -1,6 +1,6 @@
 {
   "name": "bloghome",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "blog de la esculita de sexo",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -11,21 +11,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/react": "^16.0.38",
+    "@types/react": "^16.0.40",
     "@types/react-dom": "^16.0.4",
-    "awesome-typescript-loader": "^3.4.1",
-    "css-loader": "^0.28.9",
+    "awesome-typescript-loader": "^3.5.0",
+    "blg-header": "git+ssh://git@github.com/MiguelChS/blg-header.git",
+    "blg-listpost": "^1.0.4",
+    "blg-post": "^1.0.1",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.28.10",
+    "font-awesome": "^4.7.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
     "source-map-loader": "^0.2.3",
     "style-loader": "^0.20.2",
     "typescript": "^2.7.2",
     "typings-for-css-modules-loader": "^1.7.0",
-    "webpack": "^3.11.0",
-    "bootstrap": "^3.3.7",
-    "font-awesome": "^4.7.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "blg-header": "git+ssh://git@github.com/MiguelChS/blg-header.git",
-    "blg-listpost": "^1.0.3",
-    "blg-post": "^1.0.1"
+    "webpack": "^3.11.0"
   }
 }
